@@ -14,7 +14,7 @@ public class Book {
     }
 
     public void lineQuantity(){
-        System.out.println("Общее кол-во строк в книге расчитывается по формуле: кол-во страниц *40");
+        System.out.println("Общее кол-во строк в книге расчитывается по формуле: " + this.pageQuantity * 40);
     }
 
     public int lineQuantity(int pageQuantity){

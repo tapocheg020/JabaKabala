@@ -1,5 +1,7 @@
 package Ablazzing.oppLessons.firstLesson.carExample;
 
+import java.util.Arrays;
+
 public class Car {
     public String name;
     public int price;
@@ -40,6 +42,15 @@ public class Car {
             System.out.println("Комарчик");
         }
     }
+
+    public void fullUpCar(String diseal, int ...petrol){
+        for(int petrolCar: petrol){
+            System.out.printf("МОя машина и я ее заправил %s бензином\n", petrolCar);
+        }
+        System.out.printf("У меня еще есть и дизельная бэха я ее заправил %s", diseal);
+    }
+
+
 
 
     @Override

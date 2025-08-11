@@ -83,6 +83,8 @@ public class MyString {
                 """.formatted(nameCar, nameCar, modelCar, priceCar, bestCarForWorld ? "дааааа " : "нееееет");
 
         System.out.println(formatted);
+
+
     }
 }
 //lesson 41
