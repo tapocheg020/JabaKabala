@@ -1,8 +1,14 @@
 package Ablazzing.oppLessons.firstLesson.carExample;
 
+import Ablazzing.oppLessons.firstLesson.carExample.auto.CarMercedes;
+
 public class CarBmw {
     public static void main(String[] args) {
         Car bmw = new Car("BMW M5F90", 14_000_000, 1.3);
+        Car mercedes = new Car("Mercedes amg C63", 23_000_000, 1.4);
+
+        CarMercedes carMercedes = new CarMercedes(mercedes, bmw);
+        carMercedes.pourIn();
 
 //        System.out.println(bmw.name);
 //        System.out.println(bmw.price);
@@ -16,16 +22,18 @@ public class CarBmw {
 
 //        bmw.fullUpCar("дизелем",98, 100, 95);
 
-        DieselCar dieselCar = new DieselCar("Bmw 340d", -2_400_000, 5.6);
-        System.out.println(dieselCar);
-//        dieselCar.price //can not to get this method hahah
+//        DieselCar dieselCar = new DieselCar("Bmw 340d", -2_400_000, 5.6);
+//        System.out.println(dieselCar);
+////        dieselCar.price //can not to get this method hahah
+//
+//        dieselCar.setPrice(1_000_000);
+//        System.out.println(dieselCar);
+//
+//        System.out.println(dieselCar.getName());
+//
+//        DieselCar audiCar = new DieselCar();
+//        System.out.println(audiCar);
 
-        dieselCar.setPrice(1_000_000);
-        System.out.println(dieselCar);
 
-        System.out.println(dieselCar.getName());
-
-        DieselCar audiCar = new DieselCar();
-        System.out.println(audiCar);
     }
 }

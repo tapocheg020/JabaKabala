@@ -1,10 +1,23 @@
 package Ablazzing.oppLessons.firstLesson.carExample.auto;
 
 import Ablazzing.oppLessons.firstLesson.carExample.Car;
+import Ablazzing.oppLessons.firstLesson.carExample.DieselCar;
 
 public class CarMercedes {
-    public static void main(String[] args) {
-        Car mercedes = new Car("mercedes c63", 2_000_000, 3.4);
-        System.out.println(mercedes.name);
+    private Car car;
+    private DieselCar diesel;
+
+    public CarMercedes(Car car, DieselCar diesel) {
+        if(car == null || diesel == null) {
+            this.car = car;
+            this.diesel = diesel;
+        }
+
+
+    }
+
+    public void pourIn() {
+        car.pourIn("Ilya", "Бензином");
+        car.pourIn("Ivan", "Дизелем");
     }
 }

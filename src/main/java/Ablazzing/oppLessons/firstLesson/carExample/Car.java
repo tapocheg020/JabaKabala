@@ -2,7 +2,7 @@ package Ablazzing.oppLessons.firstLesson.carExample;
 
 import java.util.Arrays;
 
-public class Car {
+public class Car extends DieselCar {
     public String name;
     public int price;
     public double acceleration;
@@ -48,6 +48,10 @@ public class Car {
             System.out.printf("МОя машина и я ее заправил %s бензином\n", petrolCar);
         }
         System.out.printf("У меня еще есть и дизельная бэха я ее заправил %s", diseal);
+    }
+
+    public void pourIn(String owner, String fuel ) {
+        System.out.printf("Человек по имени %s, залил свою бензиновою машину - %s\n", owner, fuel);
     }
 
 

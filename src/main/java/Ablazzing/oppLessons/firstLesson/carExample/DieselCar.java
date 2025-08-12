@@ -35,6 +35,10 @@ public class DieselCar {
         return DieselCar.this.name;
     }
 
+    public void pourIn(String owner, String fuel ) {
+        System.out.printf("Человек по имени %s, залил свою дизельную машину - %s\n", owner, fuel);
+    }
+
 
     @Override
     public String toString() {
