@@ -12,6 +12,10 @@ public abstract class  Dog extends Alive {
         System.out.println("----------------------------------------------------");
     }
 
+    public void beAngry() {
+        System.out.println("Собака рычит жоска");
+    }
+
     public void bark(String name, int age) {
         System.out.printf("%s - собака создалась, ей %d лет \n", name, age);
     }

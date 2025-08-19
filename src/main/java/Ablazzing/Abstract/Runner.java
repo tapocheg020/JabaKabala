@@ -7,6 +7,8 @@ public class Runner {
         shepherd.run();
         shepherd.breath();
         System.out.println(shepherd.countTeeth);
+        System.out.println("------------");
+        shepherd.beAngry();
 
 
         System.out.println("-----------------------------------");
@@ -17,5 +19,8 @@ public class Runner {
         pitbull.run();
         pitbull.breath();
         System.out.println(pitbull.countTeeth);
+        System.out.println("------------");
+        pitbull.beAngry();
+
     }
 }

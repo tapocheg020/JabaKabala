@@ -21,6 +21,13 @@ public class Shepherd extends Dog {
     public void bark(String name, int age){
         System.out.printf("Перезапись метода - %s - собака создалась, ей %d лет \n", name, age);
     }
+
+    @Override
+    public void beAngry() {
+        System.out.println("Овчарка увидела человека чужого нах");
+        super.beAngry();
+        System.out.println("Овчарка успокоилась и все супер бляха");
+    }
 }
 
 //74 lesson
