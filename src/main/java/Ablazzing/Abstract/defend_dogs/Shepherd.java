@@ -1,6 +1,8 @@
-package Ablazzing.Abstract;
+package Ablazzing.Abstract.defend_dogs;
 
-public class Shepherd extends Dog {
+import Ablazzing.Abstract.dogs.Dog;
+
+public final class Shepherd extends Dog {
 
     public Shepherd(){
         super(32);

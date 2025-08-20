@@ -1,8 +1,14 @@
-package Ablazzing.Abstract;
+package Ablazzing.Abstract.dogs;
+
+import Ablazzing.Abstract.Alive;
+
+import javax.swing.plaf.PanelUI;
 
 public abstract class  Dog extends Alive {
-    public int countLegs = 4;
+    protected final int COUNT_LEGS = 4;
     public int countTeeth;
+    public static final String LATIN_NAME = "ХУЙ ЗНАЕТ во заебис";
+
 
     public Dog(int countTeeth) {
         this.countTeeth = countTeeth;

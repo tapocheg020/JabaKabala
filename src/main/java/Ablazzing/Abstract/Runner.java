@@ -1,5 +1,8 @@
 package Ablazzing.Abstract;
 
+import Ablazzing.Abstract.dogs.Pitbull;
+import Ablazzing.Abstract.defend_dogs.Shepherd;
+
 public class Runner {
     public static void main(String[] args) {
         Shepherd shepherd = new Shepherd();

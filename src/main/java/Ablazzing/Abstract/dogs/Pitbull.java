@@ -1,4 +1,4 @@
-package Ablazzing.Abstract;
+package Ablazzing.Abstract.dogs;
 
 public class Pitbull extends Dog {
 
@@ -21,6 +21,6 @@ public class Pitbull extends Dog {
     public void beAngry(){
         System.out.println("В дом зашли чужие люди, питбуль заметил их");
         super.beAngry();
-        System.out.println("Чужие люди оказались родственниками и поэтому хозяин приказал собаке место");
+        System.out.printf("Чужие люди оказались родственниками, так же он стоит на " + super.COUNT_LEGS +  " лапах и поэтому хозяин приказал собаке место");
     }
 }
