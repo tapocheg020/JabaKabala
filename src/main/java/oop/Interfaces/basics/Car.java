@@ -1,4 +1,4 @@
-package oop.Interfaces;
+package oop.Interfaces.basics;
 
 public class Car implements Moveable {
 

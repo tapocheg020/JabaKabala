@@ -1,4 +1,4 @@
-package oop.Interfaces;
+package oop.Interfaces.basics;
 
 public class Runner {
     public static void main(String[] args) {

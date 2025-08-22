@@ -1,4 +1,4 @@
-package oop.Interfaces;
+package oop.Interfaces.basics;
 
 public class BolidFormula1 implements Moveable  {
 

@@ -1,7 +1,7 @@
-package oop.Interfaces;
+package oop.Interfaces.basics;
 
 public interface Moveable  {
-    public void move();
+    void move();
 
     default void back() {
         System.out.println("Возвращается назад");
